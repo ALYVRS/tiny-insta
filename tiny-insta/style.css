@@ -1,0 +1,56 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+/*header*/
+h1 {
+    text-align: center;
+}
+
+/*main*/
+body
+
+{
+    background: linear-gradient(180deg, rgba(244,219,192,1) 0%, rgba(105,68,42,1) 87%);
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+ main {background:linear-gradient(0deg, rgba(244,219,192,1) 0%, rgba(105,68,42,1) 87%);
+    padding: 25px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.image-wrap {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.image-wrap:hover{
+    cursor: ew-resize;
+}
+
+.hartje {
+    color: brown;
+    font-size: 50px;
+    margin: 0px;
+}
+ .hartje:hover{
+    font-size: 100px
+ }
+
+.tussentittel { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+mark{
+    color: rgb(8, 8, 8);
+    background-color: rgb(173, 142, 95);
+}
