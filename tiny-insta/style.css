@@ -1,10 +1,9 @@
-@font-face {
-    font-family: ;
-    src: url();
-}
+
 /*header*/
 h1 {
     text-align: center;
+    font-family: "Imperial Script", serif;
+    font-size: 60px;
 }
 
 /*main*/
@@ -52,5 +51,27 @@ img {
 
 mark{
     color: rgb(8, 8, 8);
-    background-color: rgb(148, 122, 83);
+    background-color: rgb(124, 95, 69); 
+}
+
+p { 
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(71, 53, 36);
+}
+
+h2 {
+    font-family: "Cormorant", serif;
+    font-size: 25px;
+}
+.beige {
+    color:rgb(31, 26, 21);
+}
+
+.bruin {
+    color:rgb(44, 33, 23); 
+}
+
+footer {
+    font-family: "Imperial Script", serif; 
+    font-size: 25px;
 }
